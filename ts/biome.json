@@ -1,7 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.6.4/schema.json",
   "formatter": {
-    "ignore": ["./src/maps/usa.json", "./src/types/graphql.ts", "./src/assets/google-fonts.json"],
+    "ignore": ["./src/types/graphql.ts"],
     "enabled": true,
     "formatWithErrors": false,
     "indentStyle": "space",

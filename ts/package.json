@@ -1,0 +1,20 @@
+{
+  "name": "gandalf",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Matas Seimys <matas.seimys@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "nodemon --exec 'NODE_OPTIONS=\"--loader ts-node/esm\" ts-node' src/index.ts",
+    "build": "tsc",
+    "serve": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {}
+}
