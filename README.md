@@ -1,6 +1,6 @@
 # Gandalf
 
-A simple slack chatbot.
+A simple Slack chatbot.
 
 ## Typescript
 
